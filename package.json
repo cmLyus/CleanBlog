@@ -1,0 +1,29 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "Patika Nodejs Dersleri CleanBlog Projesi",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cmLyus/CleanBlog.git'.git"
+  },
+  "keywords": [
+    "patika",
+    "blog"
+  ],
+  "author": "Cemal Yetim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmLyus/CleanBlog.git'/issues"
+  },
+  "homepage": "https://github.com/cmLyus/CleanBlog.git'#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
