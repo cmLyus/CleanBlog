@@ -3,7 +3,8 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send({ id: 1, title: "Blog title", description: "Blog description" });
+    const blog = { id: 1, title: "Blog title", description: "Blog description" }
+    res.send(blog);
 });
 
 
